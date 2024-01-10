@@ -43,7 +43,6 @@
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skill')">Skills</p>
                         <p class="tab-links" onclick="opentab('Education')">Education</p>
-                        <!-- <p class="tab-links" onclick="opentab('Experians')">Certifications</p> -->
                     </div>
                     <div class="tab-contents active-tab" id="skill">
                         <ul>
@@ -61,13 +60,6 @@
                             <li><span>UNDER GRADUATION</span><br>2020-23<br>Bsc.Computer Science<br>Regional college of science and humanities<br>Kizhisseri</li>
                         </ul>
                     </div>
-                    <!-- <div class="tab-contents" id="Experians">
-                        <ul>
-                            <li><span>Experians</span><br>i adnbjjhvzbdj</li>
-                            <li><span>python</span><br>i adnbjjhvzbdj</li>
-                            <li><span>python</span><br>i adnbjjhvzbdj</li>
-                        </ul>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -89,11 +81,6 @@
                     <p>Proficient in both front-end and back-end development, utilizing the latest technologies to build comprehensive web applications.I'm passionate about bringing ideas to life through code. Whether you're a startup with a vision or an established business seeking digital transformation, let's collaborate and create something extraordinary!</p>
                     <a href="">learn more</a>
                 </div>
-                <!-- <div>
-                    <h2>Web Designing</h2>
-                    <p>jbsjjasbdvh,jdfdjvbjadrbgjvb djz,dbg</p>
-                    <a href="">learn more</a>
-                </div> -->
             </div>
         </div>
     </div>
@@ -118,14 +105,6 @@
                         <a href=""><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
-                <!-- <div class="work">
-                    <img src="/images/maqswood.jpeg" alt="">
-                    <div class="layer">
-                        <h3>social media</h3>
-                        <p>knajdsgagfjbavjdbjcakyfcj</p>
-                        <a href=""><i class="fa-solid fa-link"></i></a>
-                    </div>
-                </div> -->
             </div>
             <a href="" class="btn">See more</a>
         </div>
@@ -153,9 +132,6 @@
                     <span id="msg"></span>
                 </div>
             </div>
-        </div>
-        <div class="copyright">
-            <p>copyright <i class="fa-regular fa-copyright"></i> Maqswood.</p>
         </div>
     </div>
     
@@ -196,7 +172,7 @@
           e.preventDefault()
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => {
-                msg.innerHTML="Message sent succefully"
+                msg.innerHTML="Message sent successfully"
                 setTimeout(function(){
                     msg.innerHTML=""
                 },5000)
